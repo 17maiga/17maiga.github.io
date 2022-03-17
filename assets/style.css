@@ -1,0 +1,12 @@
+body {
+    background: black;
+    color: white;
+    font-family: Consolas, monospace
+}
+
+a {
+    color: gold;
+}
+a:visited {
+    color: darkgoldenrod;
+}
