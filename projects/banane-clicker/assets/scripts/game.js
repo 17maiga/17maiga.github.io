@@ -1,8 +1,4 @@
 function sayHi() {
-    let output = document.getElementById("output").innerText
-    switch (output) {
-        case "hi": output = "hello"; break;
-        case "hello": output = "hi"; break;
-        default: output = "hi";
-    }
+    let output = document.getElementById("output");
+    output.innerText = (output.innerText === "hello") ? "hi" : "hello";
 }
