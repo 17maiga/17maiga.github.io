@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>17maiga</title>
     <!-- <link rel="stylesheet" href="assets/style.css" /> -->
     <link
@@ -24,12 +24,25 @@
         <div class="container-fluid">
           <a href="/index.html" class="navbar-brand text-light">17maiga</a>
           <ul class="navbar-nav me-auto">
-            <li class="nav-item">
+            <li class="nav-item dropdown">
               <a
-                href="/projects/banane-clicker/index.html"
-                class="nav-link active text-light"
-                >Banane Clicker</a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="projectsDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Projects</a
               >
+              <ul class="dropdown-menu" aria-labelledby="projectsDropdown">
+                <li>
+                  <a
+                    href="/projects/banane-clicker/index.html"
+                    class="dropdown-item"
+                    >Banane Clicker</a
+                  >
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
